@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.divhome {
+  justify-content: right;
+  width: 60%;
+  height: 100px;
+}
+.todo {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #2980b9; 
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); 
+}
+.side {
+  margin: 0px;
+  width: 20%;
+}
+.content {
+  width: 100%;
+}
+.promo {
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+  font-size: 300%;
+}
+.pagination {
+  display: inline-block;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: center;
+  border-color: #101010;
+  border-radius: 6px;
+}
+.ull {
+  text-align: center;
+  padding-left: 0%;
+}
+.link {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 100%;
+  border-radius: 10px;
+}
+.link:hover {
+  background-color: #caf0f8;
+}
+
+/* .pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #eee;
+  border-color: #eee;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+} */

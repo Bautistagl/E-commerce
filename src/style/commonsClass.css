@@ -1,0 +1,43 @@
+.cardContainer {
+  margin: 2%;
+}
+
+.singleProductGeneral {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.singleProductLeft {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+}
+
+.singleProductLeftTittle {
+  margin: 10px;
+  color: "#03045E";
+}
+
+.singleProductLeftImagen {
+  margin: 40px;
+  max-width: 10px;
+}
+
+.singleProductRigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  place-items: center;
+  text-align: left;
+}
